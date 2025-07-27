@@ -1,0 +1,42 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header nav { display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 40px;
+}
+header nav img {
+    height: 50px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+header nav ul li a:hover {
+    color: #007BFF;
+}
+
+header, .background-section {background-image: url('CSS Advanced pics/Object.png');
+background-size: cover;
+background-position: top center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+header {
+    margin-bottom: 0;
+    padding: 40px 20px;
+}
+.hero-section {
+    margin-top: 0;
+    padding: 100px 20px;
+    color: white;
+background-position: bottom center;}
